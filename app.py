@@ -1,5 +1,7 @@
-from chalice import Chalice
 import json
+
+from chalice import Chalice
+
 from forecaster import make_forecast
 
 app = Chalice(app_name='ts_forecaster')
