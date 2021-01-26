@@ -4,7 +4,7 @@ from chalice import Chalice
 
 from forecaster import make_forecast
 
-app = Chalice(app_name='ts_forecaster')
+app = Chalice(app_name='prophet_forecaster')
 
 
 @app.route('/forecast', methods=['POST'])

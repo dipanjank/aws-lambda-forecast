@@ -9,6 +9,9 @@ __pycache__/
 venv/
 .idea/
 
+packaged/
+.chalice/deployments/
+
 # Distribution / packaging
 .Python
 build/
