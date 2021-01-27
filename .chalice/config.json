@@ -5,6 +5,7 @@
   "lambda_memory_size": 512,
   "generate_policy":true,
   "manage_iam_roles": true,
+  "automatic_layers": true,
   "stages": {
     "dev": {
       "environment_variables": {

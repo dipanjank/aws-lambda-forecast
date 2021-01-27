@@ -2,7 +2,7 @@ from fbprophet import Prophet
 import pandas as pd
 
 
-def make_forecast(data_dict):
+def prophet_forecast(data_dict):
     """
     Take daily data to train a Prophet model and return the forecast from
     ``data_dict['start_date']`` and ``data_dict['end_date']``. Dates expected in YYYY-MM-DD

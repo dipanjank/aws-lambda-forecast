@@ -11,6 +11,7 @@ venv/
 
 packaged/
 .chalice/deployments/
+out/
 
 # Distribution / packaging
 .Python
